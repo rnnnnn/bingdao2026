@@ -1870,26 +1870,48 @@
                         btn.style.cssText = 'display:block; text-align:center; padding:10px; background:#4285F4; color:white; text-decoration:none; border-radius:8px; margin-top:10px; font-weight:bold; box-shadow:0 2px 5px rgba(0,0,0,0.2);';
                         mapElement.parentNode.insertBefore(btn, mapElement.nextSibling);
 
-                        // OSRM Routing
+                        // OSRM Routing with Instant Fallback
                         if (latlngs.length > 1) {
+                            // 1. Draw Fallback Line Immediately (So user sees something instantly)
+                            const fallbackLine = L.polyline(latlngs, {
+                                color: '#95a5a6',
+                                weight: 4,
+                                opacity: 0.6,
+                                dashArray: '10, 10'
+                            }).addTo(map);
+                            
+                            // Fit bounds immediately
+                            map.fitBounds(fallbackLine.getBounds(), { padding: [40, 40] });
+
                             const waypointsOSRM = latlngs.map(pt => `${pt[1]},${pt[0]}`).join(';');
                             const osrmUrl = `https://router.project-osrm.org/route/v1/driving/${waypointsOSRM}?overview=full&geometries=geojson`;
 
-                            // Stagger requests
+                            // 2. Try to fetch real route
                             setTimeout(() => {
                                 fetch(osrmUrl)
-                                    .then(res => res.json())
+                                    .then(res => {
+                                        if (!res.ok) throw new Error("OSRM Error");
+                                        return res.json();
+                                    })
                                     .then(data => {
                                         if (data.routes && data.routes.length > 0) {
                                             const coords = data.routes[0].geometry.coordinates.map(c => [c[1], c[0]]);
-                                            L.polyline(coords, { color: '#3498db', weight: 5, opacity: 0.8 }).addTo(map);
-                                        } else {
-                                            throw new Error('No route');
+                                            
+                                            // Remove fallback and draw real route
+                                            map.removeLayer(fallbackLine);
+                                            const routeLine = L.polyline(coords, { 
+                                                color: '#3498db', 
+                                                weight: 5, 
+                                                opacity: 0.8 
+                                            }).addTo(map);
+                                            
+                                            // Re-fit bounds to real route
+                                            map.fitBounds(routeLine.getBounds(), { padding: [40, 40] });
                                         }
                                     })
-                                    .catch(() => {
-                                        // Fallback dashed line
-                                        L.polyline(latlngs, { color: '#95a5a6', weight: 4, opacity: 0.6, dashArray: '10, 10' }).addTo(map);
+                                    .catch(e => {
+                                        // If failed, just keep the fallback line
+                                        console.warn("OSRM fetch failed, keeping fallback line.", e);
                                     });
                             }, index * 800);
                         } else {
