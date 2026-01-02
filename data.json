@@ -1,0 +1,546 @@
+[
+    {
+        "id": "intro",
+        "title": "冰島 & 倫敦：冰火與皇室的交響曲",
+        "subtitle": "2024.02.23 - 03.06",
+        "type": "cover",
+        "image_index": 0,
+        "images": [
+            "assets/cover.png"
+        ],
+        "description": "這不僅是一趟旅行，更是一場對比強烈的冒險。從冰島的荒涼與壯闊，到倫敦的精緻與古典。準備好你的相機與心靈，我們即將出發。",
+        "story": "冰島 (Iceland) 其實應該叫 Green Land (綠島)，而格陵蘭 (Greenland) 才是 Ice Land。這是維京人為了防止敵人入侵這塊寶地而故意取的混淆名字。",
+        "recommendation": "行前建議：下載 'Vedur' (天氣) 和 '112 Iceland' (安全) App。冰島天氣變化比翻書還快！",
+        "tips": [
+            "⚠️ 安全：冰島風速極大，開車門時務必抓緊，以免車門被吹反(保險不理賠)。",
+            "⚠️ 穿著：洋蔥式穿搭，防風防水的外套是必須的，雨傘在冰島基本無用。",
+            "⚠️ 自駕：冰島路況多變，請每天早上查詢 road.is 確認道路封閉狀況。"
+        ]
+    },
+    {
+        "id": "flights",
+        "title": "飛行日誌 (Flight Schedule) \u2708\ufe0f",
+        "type": "info",
+        "image_index": 1,
+        "content": [
+            {
+                "label": "02/23 去程：台北 \u279c 倫敦",
+                "detail": "BR67 | 08:40 出發 - 16:55 抵達",
+                "icon": "\ud83d\udeeb",
+                "note": "長榮直飛。建議在機上先調整作息，倫敦比台灣慢 8 小時。"
+            },
+            {
+                "label": "02/24 轉機：倫敦 \u279c 雷克雅維克",
+                "detail": "FI451 | 07:35 出發 - 10:55 抵達",
+                "icon": "\ud83d\udeeb",
+                "note": "冰島航空機上沒有免費餐點，但有免費的無酒精飲料。記得選靠窗位，接近冰島時的俯瞰視角絕美。"
+            },
+            {
+                "label": "03/03 返程：雷克雅維克 \u279c 倫敦",
+                "detail": "FI450 | 11:50 出發 - 15:00 抵達",
+                "icon": "\ud83d\udeeb",
+                "note": "告別冰島，返回英國開始城市之旅。"
+            },
+            {
+                "label": "03/06 歸途：倫敦 \u279c 台北",
+                "detail": "BR68 | 21:15 出發 - 18:35 (+1) 抵達",
+                "icon": "\ud83c\udfe0",
+                "note": "這是長榮的晚班機，上機後吃個飯就能睡覺，調時差比較容易。"
+            }
+        ]
+    },
+    {
+        "id": "day1",
+        "day": "Day 1",
+        "date": "02/23 (Fri)",
+        "title": "啟程 (Departure)",
+        "type": "day",
+        "image_index": 2,
+        "route": "Taipei (08:40) ➜ London Heathrow (16:55) ➜ Crowne Plaza Hotel",
+        "distance": "Flight: 13h 15m",
+        "hotel": {
+            "name": "Crowne Plaza London Heathrow T4",
+            "lat": 51.4591,
+            "lng": -0.4433,
+            "note": "機場過境旅館，養精蓄銳準備明天一早飛往冰島。"
+        },
+        "locations": []
+    },
+    {
+        "id": "day2",
+        "day": "Day 2",
+        "date": "02/24 (Sat)",
+        "title": "抵達冰島 (Arrival in Iceland)",
+        "type": "day",
+        "image_index": 4,
+        "start_point": {
+            "name": "KEF Airport",
+            "lat": 63.9850,
+            "lng": -22.6056
+        },
+        "route": "KEF Airport (10:55) ➜ Costco ➜ 66°North ➜ Hótel Kría (Vík)",
+        "distance": "Drive: ~245 km (3.5 - 4 hr)",
+        "tips": [
+            "⚠️ 補給：離開雷克雅維克後超市較少，建議在 Costco 買足零食與水。"
+        ],
+        "hotel": {
+            "name": "Hótel Kría",
+            "lat": 63.4184,
+            "lng": -18.9910,
+            "note": "位於 Vík 小鎮，設計現代的新穎飯店。"
+        },
+        "locations": [
+            {
+                "name": "Costco Iceland (好市多)",
+                "lat": 64.0733,
+                "lng": -21.9111,
+                "image": "assets/costco.png",
+                "desc": "冰島唯一的 Costco，也是物價昂貴的冰島救星。",
+                "story": "Costco 的熱狗套餐是冰島 CP 值最高的一餐。",
+                "recommendation": "⭐ 必買：大瓶裝水、可頌麵包、綜合堅果、加滿油！"
+            },
+            {
+                "name": "66°North (66度北)",
+                "lat": 64.1475,
+                "lng": -21.9350,
+                "image": "assets/66north.png",
+                "desc": "冰島最知名的戶外機能品牌",
+                "story": "原為保護漁夫免受北大西洋惡劣天氣侵襲而創立。",
+                "recommendation": "⭐ 必買：羊毛帽或手套。"
+            }
+        ]
+    },
+    {
+        "id": "day3",
+        "day": "Day 3",
+        "date": "02/25 (Sun)",
+        "title": "黃金圈與南部 (Golden Circle)",
+        "type": "day",
+        "image_index": 5,
+        "start_point": {
+            "name": "Hótel Kría (Vík)",
+            "lat": 63.4184,
+            "lng": -18.9910
+        },
+        "route": "Hótel Kría ➜ Black Sand Beach ➜ Friðheimar ➜ Geysir ➜ Gullfoss ➜ Hótel Hamar",
+        "distance": "Drive: ~360 km (5 - 6 hr)",
+        "tips": [
+            "⚠️ 路程：今日車程較長，請把握白天時間，Gullfoss 結束後直奔 Borgarnes。",
+            "⚠️ 濕身：靠近古佛斯瀑布和間歇泉時水氣很大，相機要注意防水。"
+        ],
+        "hotel": {
+            "name": "Hótel Hamar",
+            "lat": 64.5609,
+            "lng": -21.9010,
+            "note": "位於高爾夫球場旁，光害少，有機會看到極光。"
+        },
+        "locations": [
+            {
+                "name": "Reynisfjara Black Sand Beach (黑沙灘)",
+                "lat": 63.4042,
+                "lng": -19.0492,
+                "image": "assets/reynisfjara.png",
+                "desc": "世界末日般的絕美黑沙灘。",
+                "story": "傳說中玄武岩柱是被陽光石化的巨魔。",
+                "recommendation": "⭐ 警告：嚴禁背對海浪，瘋狗浪極度危險。"
+            },
+            {
+                "name": "Friðheimar Tomato Farm (番茄農場)",
+                "lat": 64.1775,
+                "lng": -20.4444,
+                "image": "assets/fridheimar.png",
+                "desc": "在地熱溫室中享用獨特的番茄料理午餐 (12:00)。",
+                "story": "這裡一年四季都依靠地熱和人工照明種植高品質番茄。",
+                "recommendation": "⭐ 必吃：番茄湯吃到飽和現烤麵包。"
+            },
+            {
+                "name": "Geysir (間歇泉)",
+                "lat": 64.3104,
+                "lng": -20.3024,
+                "image": "assets/geyser.png",
+                "desc": "親眼見證每幾分鐘噴發一次的壯觀 Strokkur 間歇泉。",
+                "story": "所有間歇泉的英文 'Geyser' 一詞正是源自於此地。",
+                "recommendation": "⭐ 拍攝：將相機設為連拍模式，捕捉水柱噴出的瞬間。"
+            },
+            {
+                "name": "Gullfoss (黃金瀑布)",
+                "lat": 64.3271,
+                "lng": -20.1199,
+                "image": "assets/gullfoss.png",
+                "desc": "氣勢磅礴的雙層瀑布，如同大地裂開的傷口。",
+                "story": "20世紀初曾有開發水力發電的計畫，被Sigríður Tómasdóttir力保才得以存留。",
+                "recommendation": "⭐ 觀景：走上下兩層觀景台感受不同的震撼力。"
+            }
+        ]
+    },
+    {
+        "id": "day4",
+        "day": "Day 4",
+        "date": "02/26 (Mon)",
+        "title": "斯奈山半島 (Snæfellsnes)",
+        "type": "day",
+        "image_index": 9,
+        "start_point": {
+            "name": "Hótel Hamar",
+            "lat": 64.5609,
+            "lng": -21.9010
+        },
+        "route": "Hótel Hamar ➜ Ytri Tunga ➜ Búðakirkja ➜ Ingjaldshólskirkja ➜ Hótel Hamar",
+        "distance": "Drive: ~280 km (4 - 4.5 hr Loop)",
+        "tips": [
+            "⚠️ 天氣：斯奈山半島風勢通常較強，行車時請握緊方向盤。"
+        ],
+        "hotel": {
+            "name": "Hótel Hamar",
+            "lat": 64.5609,
+            "lng": -21.9010,
+            "note": "連住第二晚，享受寧靜的小木屋時光。"
+        },
+        "locations": [
+            {
+                "name": "Ytri Tunga (海豹沙灘)",
+                "lat": 64.8025,
+                "lng": -23.0805,
+                "image": "assets/ytri_tunga.png",
+                "desc": "斯奈山半島著名的賞海豹地點。",
+                "story": "雖然冰島到處都是海，但這裡是海豹最喜歡曬太陽的地方之一。",
+                "recommendation": "⭐ 觀察：保持安靜距離，不要驚擾牠們。"
+            },
+            {
+                "name": "Búðakirkja (黑教堂)",
+                "lat": 64.8218,
+                "lng": -23.3845,
+                "image": "assets/budakirkja.png",
+                "desc": "矗立在熔岩原上的孤獨黑教堂，極簡美學的代表。",
+                "story": "這座教堂是冰島最受歡迎的婚紗拍攝地之一。",
+                "recommendation": "⭐ 攝影：黑色教堂與背後的雪山或綠草形成強烈對比。"
+            },
+            {
+                "name": "Ingjaldshólskirkja (紅白教堂)",
+                "lat": 64.9080,
+                "lng": -23.8540,
+                "image": "assets/ingjaldsholskirkja.png",
+                "desc": "位於山坡上的美麗教堂，是電影《白日夢冒險王》的取景靈感地之一。",
+                "story": "通往教堂的筆直道路是絕佳的構圖引導線。",
+                "recommendation": "⭐ 體驗：把自己想像成電影主角，拍一張奔跑的照片。"
+            }
+        ]
+    },
+    {
+        "id": "day5",
+        "day": "Day 5",
+        "date": "02/27 (Tue)",
+        "title": "南岸風光 (South Coast)",
+        "type": "day",
+        "image_index": 7,
+        "start_point": {
+            "name": "Hótel Hamar",
+            "lat": 64.5609,
+            "lng": -21.9010
+        },
+        "route": "Hótel Hamar ➜ Seljalandsfoss ➜ Fjaðrárgljúfur ➜ Pakkhus ➜ Hótel Jökulsarlon",
+        "distance": "Drive: ~410 km (5.5 - 6 hr - Long Day!)",
+        "tips": [
+            "⚠️ 長途：今日車程很長，建議早上 8:30 前出發。",
+            "⚠️ 安全：南部一號公路冬季偶有強風，請注意 road.is 路況。"
+        ],
+        "hotel": {
+            "name": "Hótel Jökulsarlon (Glacier Lagoon)",
+            "lat": 64.0450,
+            "lng": -16.1950,
+            "note": "高級且現代化的飯店，距離冰河湖僅幾分鐘車程。"
+        },
+        "locations": [
+            {
+                "name": "Seljalandsfoss (水濂洞瀑布)",
+                "lat": 63.6156,
+                "lng": -19.9886,
+                "image": "assets/seljalandsfoss.png",
+                "desc": "可以走到瀑布後方的獨特瀑布 (冬季若結冰可能封閉)。",
+                "story": "日落時分，陽光穿透水簾的畫面最為迷人。",
+                "recommendation": "⭐ 裝備：如果要走到後方，務必穿著防水外套和褲子。"
+            },
+            {
+                "name": "Fjaðrárgljúfur (羽毛峽谷)",
+                "lat": 63.7713,
+                "lng": -18.1718,
+                "image": "assets/fjadrargljufur.png",
+                "desc": "深邃且蜿蜒的峽谷，景色如夢似幻。",
+                "story": "因 Justin Bieber MV 而爆紅的羽毛峽谷。",
+                "recommendation": "⭐ 步道：沿著邊緣步道走到觀景台，景色最壯觀。"
+            },
+            {
+                "name": "Pakkhus Restaurant (赫本龍蝦)",
+                "lat": 64.2505,
+                "lng": -15.2070,
+                "image": "assets/pakkhus.png",
+                "desc": "赫本鎮著名的龍蝦餐廳，享用鮮甜的海鰲蝦。",
+                "story": "小龍蝦 (Langoustine) 其實是挪威海鰲蝦，肉質比波士頓龍蝦更細緻。",
+                "recommendation": "⭐ 必點：烤海鰲蝦 (Langoustine)。"
+            }
+        ]
+    },
+    {
+        "id": "day6",
+        "day": "Day 6",
+        "date": "02/28 (Wed)",
+        "title": "冰川健行 (Glacier Hiking)",
+        "type": "day",
+        "image_index": 8,
+        "start_point": {
+            "name": "Hótel Jökulsarlon",
+            "lat": 64.0450,
+            "lng": -16.1950
+        },
+        "route": "Hótel Jökulsarlon ➜ Blue Ice Cave Tour ➜ Diamond Beach ➜ Jökulsárlón ➜ Hótel Jökulsarlon",
+        "distance": "Drive: ~30 km (Local Activities)",
+        "tips": [
+            "⚠️ 集合：冰洞行程集合時間務必準時，逾時不候。"
+        ],
+        "hotel": {
+            "name": "Hótel Jökulsarlon (Glacier Lagoon)",
+            "lat": 64.0450,
+            "lng": -16.1950,
+            "note": "連住第二晚，運氣好可以在飯店外看到極光倒映在冰河上。"
+        },
+        "locations": [
+            {
+                "name": "Blue Ice Cave Tour (藍冰洞)",
+                "lat": 64.0483,
+                "lng": -16.1794,
+                "image": "assets/ice_cave.png",
+                "desc": "深入瓦特納冰川內部，探索夢幻的藍色水晶宮殿 (10:00)。",
+                "story": "藍冰洞每年都會重新形成，形狀和位置都不同。",
+                "recommendation": "⭐ 體驗：請務必參加導覽團，跟隨專業嚮導穿戴冰爪進入。"
+            },
+            {
+                "name": "Diamond Beach (鑽石沙灘)",
+                "lat": 64.0426,
+                "lng": -16.1755,
+                "image": "assets/diamond_beach.png",
+                "desc": "黑沙灘上散落著如鑽石般閃耀的巨大冰塊。",
+                "story": "這些冰塊是從冰河湖漂流出海，被海浪打上岸的。",
+                "recommendation": "⭐ 攝影：尋找透明度高的冰塊，以此為前景拍攝海浪。"
+            },
+            {
+                "name": "Jökulsárlón (傑古沙龍冰河湖)",
+                "lat": 64.0483,
+                "lng": -16.1794,
+                "image": "assets/jokulsarlon.png",
+                "desc": "巨大的冰塊在湖面上靜靜漂流，隨光線變化萬千。",
+                "story": "多部電影如《古墓奇兵》、《007》都曾在此取景。",
+                "recommendation": "⭐ 觀察：幸運的話可以看到海豹在冰塊間游泳。"
+            }
+        ]
+    },
+    {
+        "id": "day7",
+        "day": "Day 7",
+        "date": "03/01 (Thu)",
+        "title": "返回首都 (Return to Reykjavík)",
+        "type": "day",
+        "image_index": 2,
+        "start_point": {
+            "name": "Hótel Jökulsarlon",
+            "lat": 64.0450,
+            "lng": -16.1950
+        },
+        "route": "Hótel Jökulsarlon ➜ Skógafoss ➜ Reykjavik Consuls Hotel",
+        "distance": "Drive: ~380 km (5 - 5.5 hr)",
+        "tips": [
+            "⚠️ 體力：又是一趟長途車程，中途可在 Skógafoss 休息。"
+        ],
+        "hotel": {
+            "name": "Reykjavik Consuls Hotel",
+            "lat": 64.1490,
+            "lng": -21.9400,
+            "note": "Curio Collection by Hilton，位於市中心，風格優雅。"
+        },
+        "locations": [
+            {
+                "name": "Skógafoss (彩虹瀑布)",
+                "lat": 63.5320,
+                "lng": -19.5113,
+                "image": "assets/skogafoss.png",
+                "desc": "冰島最大、最壯麗的瀑布之一，晴天常能見到雙彩虹。",
+                "story": "傳說瀑布後方的洞穴埋藏著第一位維京定居者的寶藏。",
+                "recommendation": "⭐ 挑戰：爬上右側的 527 階樓梯，俯瞰瀑布和海岸線。"
+            }
+        ]
+    },
+    {
+        "id": "day8",
+        "day": "Day 8",
+        "date": "03/02 (Fri)",
+        "title": "市區觀光 (Reykjavík City)",
+        "type": "day",
+        "image_index": 7,
+        "start_point": {
+            "name": "Hotel Reykjavík Saga",
+            "lat": 64.1473,
+            "lng": -21.9339
+        },
+        "route": "Reykjavík ➜ Sky Lagoon ➜ Hallgrímskirkja ➜ Courtyard Keflavik",
+        "distance": "Drive: ~60 km",
+        "tips": [
+            "⚠️ 退稅：記得在機場前先整理好退稅單，若金額超過 6000 ISK 需海關蓋章。"
+        ],
+        "hotel": {
+            "name": "Courtyard by Marriott Keflavik",
+            "lat": 63.9990,
+            "lng": -22.5870,
+            "note": "機場旁最新穎的飯店，方便明天退稅與搭機。"
+        },
+        "locations": [
+            {
+                "name": "Sky Lagoon (天空之鏡溫泉)",
+                "lat": 64.1165,
+                "lng": -21.9489,
+                "image": "assets/skylagoon.png",
+                "desc": "懸崖邊的無邊際地熱溫泉。",
+                "story": "獨創的「七步儀式」能讓身心靈重新開機。",
+                "recommendation": "⭐ 時機：日落時刻是最夢幻的入場時間。"
+            },
+            {
+                "name": "Hallgrímskirkja Church (哈爾格林姆教堂)",
+                "lat": 64.1417,
+                "lng": -21.9266,
+                "image": "assets/hallgrimskirkja.png",
+                "desc": "雷克雅維克市區地標，如玄武岩般的管風琴教堂。",
+                "story": "設計靈感來自冰島特殊的自然地貌——玄武岩柱。",
+                "recommendation": "⭐ 登頂：搭電梯上塔頂，360 度俯瞰彩色積木般的市區。"
+            }
+        ]
+    },
+    {
+        "id": "day9",
+        "day": "Day 9",
+        "date": "03/03 (Sat)",
+        "title": "倫敦饗宴 (London Dining)",
+        "type": "day",
+        "image_index": 9,
+        "start_point": {
+            "name": "KEF Airport",
+            "lat": 63.9850,
+            "lng": -22.6056
+        },
+        "route": "KEF (11:50) ➜ LHR (15:00) ➜ Page8 Hotel ➜ CORE by Clare Smyth",
+        "distance": "Flight + Tube",
+        "hotel": {
+            "name": "Page8, Page Hotels",
+            "lat": 51.5093,
+            "lng": -0.1266,
+            "note": "特拉法加廣場旁，位置絕佳的設計旅店。"
+        },
+        "locations": [
+            {
+                "name": "CORE by Clare Smyth (米其林三星)",
+                "lat": 51.5117,
+                "lng": -0.2052,
+                "image": "assets/core.png",
+                "desc": "米其林三星的極致優雅 (Notting Hill)。",
+                "story": "主廚 Clare Smyth 是首位獲得與維持三星殊榮的英國女性主廚。",
+                "recommendation": "⭐ 菜色：經典的 Potato and Roe 是必嚐招牌。"
+            }
+        ]
+    },
+    {
+        "id": "day10",
+        "day": "Day 10",
+        "date": "03/04 (Sun)",
+        "title": "學術與購物 (Oxford & Shopping)",
+        "type": "day",
+        "image_index": 9,
+        "start_point": {
+            "name": "Page8 Hotel",
+            "lat": 51.5093,
+            "lng": -0.1266
+        },
+        "route": "Page8 Hotel ➜ Oxford ➜ Bicester Village ➜ Page8 Hotel",
+        "distance": "Train: ~1 hr each way",
+        "tips": [
+            "⚠️ 火車：建議提前預訂倫敦往返牛津的火車票，現場買票較貴。"
+        ],
+        "hotel": {
+            "name": "Page8, Page Hotels",
+            "lat": 51.5093,
+            "lng": -0.1266,
+            "note": "連住第二晚。"
+        },
+        "locations": [
+            {
+                "name": "University of Oxford (牛津大學)",
+                "lat": 51.7548,
+                "lng": -1.2544,
+                "image": "assets/oxford.png",
+                "desc": "英語世界最古老的大學。",
+                "story": "這裡誕生了 28 位英國首相和無數的諾貝爾獎得主。",
+                "recommendation": "⭐ 景點：Radcliffe Camera 圖書館與基督教堂學院 (哈利波特場景)。"
+            },
+            {
+                "name": "Bicester Village Outlet (比斯特購物村)",
+                "lat": 51.8922,
+                "lng": -1.1573,
+                "image": "assets/bicester.png",
+                "desc": "英國最受歡迎的名牌 Outlet。",
+                "story": "建築風格模仿傳統的牛津郡村莊，逛起來非常舒適。",
+                "recommendation": "⭐ 品牌：Burberry, Gucci, Prada 通常有不錯的折扣。"
+            }
+        ]
+    },
+    {
+        "id": "day11",
+        "day": "Day 11",
+        "date": "03/05 (Mon)",
+        "title": "倫敦巡禮 (London City Tour)",
+        "type": "day",
+        "image_index": 10,
+        "start_point": {
+            "name": "Page8 Hotel",
+            "lat": 51.5093,
+            "lng": -0.1266
+        },
+        "route": "Page8 Hotel ➜ Big Ben ➜ British Museum ➜ Fortnum & Mason",
+        "distance": "Walk + Tube",
+        "hotel": {
+            "name": "Page8, Page Hotels",
+            "lat": 51.5093,
+            "lng": -0.1266,
+            "note": "最後一晚，享受倫敦的夜生活。"
+        },
+        "locations": [
+            {
+                "name": "British Museum (大英博物館)",
+                "lat": 51.5188,
+                "lng": -0.1262,
+                "image": "assets/british_museum.png",
+                "desc": "世界四大博物館之一，館藏豐富。",
+                "story": "館藏多達 800 萬件，但公開展出的只有約 1% (8 萬件)。",
+                "recommendation": "\u2b50 鎮館之寶：羅塞塔石碑、帕德嫩石雕、埃及木乃伊。"
+            },
+            {
+                "name": "Fortnum & Mason (皇家茶葉百貨)",
+                "lat": 51.5084,
+                "lng": -0.1385,
+                "image": "assets/image_7_2.jpg",
+                "desc": "皇家御用百貨，伴手禮首選。",
+                "story": "這裡發明了蘇格蘭蛋，並長期供應茶葉給英國皇室。",
+                "recommendation": "\u2b50 體驗：除了買茶，一定要去 Diamond Jubilee Tea Salon 喝下午茶。"
+            }
+        ]
+    },
+    {
+        "id": "day12",
+        "day": "Day 12",
+        "date": "03/06 (Tue)",
+        "title": "再會 (Farewell)",
+        "type": "day",
+        "image_index": 10,
+        "route": "London \u279c Heathrow Airport (21:15) \u279c Taipei (18:35+1)",
+        "hotel": {
+            "name": "Home Sweet Home",
+            "note": "帶著滿滿的回憶回到溫暖的家。"
+        },
+        "locations": []
+    }
+]
